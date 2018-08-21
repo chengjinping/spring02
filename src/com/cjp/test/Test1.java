@@ -22,5 +22,6 @@ public class Test1 {
 		UserController userController = (UserController) act.getBean("userController");
 		System.out.println("ceshi:"+userController);
 		System.out.println("nihao");
+		System.out.println("yubyqy");
 	}
 }
