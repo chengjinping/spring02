@@ -21,5 +21,6 @@ public class Test1 {
 		ApplicationContext act=new ClassPathXmlApplicationContext("application-zhujie.xml");
 		UserController userController = (UserController) act.getBean("userController");
 		System.out.println("ceshi:"+userController);
+		System.out.println("nihao");
 	}
 }
